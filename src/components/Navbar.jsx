@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <div className=" flex lg:w-[80%] h-20 sm:w-[100%] md:mt-0 lg:mt-7 lg:rounded-2xl shadow-md border-black border-[2px] items-center sm:justify-between md:justify-evenly">
+    <div className=" flex md:w-[80%] h-20 sm:w-[100%] sm:mt-0 md:mt-7 md:rounded-2xl shadow-md border-black border-[2px] items-center sm:justify-between md:justify-evenly">
       {/* logo */}
       <div className="flex md:w-[10%] sm:w-[20%] h-[90%] sm:mx-5 items-center justify-evenly hover:cursor-pointer ">
         <FontAwesomeIcon
@@ -15,7 +15,7 @@ const Navbar = () => {
         <h1 className="text-2xl">EMTECH</h1>
       </div>
       {/* selection */}
-      <div className="w-[30%] md:flex justify-evenly sm:hidden">
+      <div className="lg:w-[30%] md:ml-3 md:w-[45%] md:flex justify-evenly sm:hidden">
         <a className="hover:cursor-pointer hover:text-blue-700 transition">
           Home
         </a>
